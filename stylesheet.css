@@ -1,0 +1,240 @@
+body {
+  background: linear-gradient(270deg, #314755, #326983, #306f98, #26a0da);
+  background-size: 800% 800%;
+
+  -webkit-animation: backgroundAnim 15s ease infinite;
+  -moz-animation: backgroundAnim 15s ease infinite;
+  animation: backgroundAnim 15s ease infinite;
+}
+
+@-webkit-keyframes backgroundAnim {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes backgroundAnim {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes backgroundAnim {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#navCont {
+  display: flex;
+  background-color: #313e46;
+  height: 125px;
+  border-bottom: 3px solid black;
+}
+.logoPR {
+  margin-left: 5%;
+  margin-bottom: 15px;
+}
+.navList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-right: 2.5%;
+  text-align: center;
+  margin-top: 42px;
+}
+.navLinks {
+  padding-left: 21px;
+  padding-right: 21px;
+  font-size: 17px;
+  font-weight: 700;
+}
+button {
+  background-image: linear-gradient(
+    to right,
+    #314755 0%,
+    #26a0da 51%,
+    #314755 100%
+  );
+}
+button {
+  margin: 10px;
+  padding: 3px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border-style: double;
+}
+button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  border-color: #313e46;
+  box-shadow: 0 0 12px #eee;
+}
+.sectionIntro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+  width: 100%;
+}
+.intro {
+  background-color: #313e46;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 25px;
+  color: aliceblue;
+  width: 700px;
+  padding: 15px;
+  margin: 50px;
+  border: 3px solid black;
+}
+.intro:hover {
+    box-shadow: 0 0 35px #eee;
+}
+.picofme {
+  height: 350px;
+  margin: 75px;
+  border-radius: 15px;
+  border: 3px solid #313e46;
+}
+.picofme:hover {
+    box-shadow: 0 0 35px #eee;
+}
+footer {
+  position: absolute;
+  bottom: 0%;
+  height: 300px;
+  background-color: #313e46;
+  border-top: 3px solid black;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  background-color: #313e46;
+  border-top: 3px solid black;
+  color: slategray;
+  text-align: center;
+  padding-top: 10px;
+}
+.card {
+  margin-top: 75px;
+  border-radius: 25px;
+  justify-content: center;
+  border: 5px solid #314755;
+  background-color: #313e46;
+  color: aliceblue;
+}
+.card:hover {
+    box-shadow: 0 0 35px #eee;
+}
+.iframe {
+  width: 100%;
+  height: 480px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.projectCont {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+}
+.pageTitle {
+  font-size: larger;
+  text-align: center;
+  color: aliceblue;
+  padding-top: 50px;
+}
+.cardbody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.card-title {
+  margin-top: 15px;
+  font-size: x-large;
+}
+.sectionInterest {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 23px;
+}
+.gamesList {
+    list-style-image: url(images/controller.png);
+}
+.bookList {
+    list-style-image: url(images/book.png);    
+}
+.movieList {
+    list-style-image: url(images/movies.png);    
+}
+.interestHead {
+ font-size: 26px;
+ text-align: center;
+}
+.interestCol {
+border: 3px solid black;
+background-color: #313e46;
+border-radius: 15px;
+color: aliceblue;
+padding: 25px;
+margin: 35px;
+}
+.interestCol:hover {
+    box-shadow: 0 0 35px #eee;
+}
+li {
+    padding: 5px;
+}
+.caraColt {
+    border: 3px solid black;
+background-color: #313e46;
+border-radius: 15px;
+color: aliceblue;
+padding: 25px;
+margin-bottom: 30px;
+}
+.carousel-item {
+    max-width: 725px;
+    overflow: hidden;
+}
+details:hover {
+    box-shadow: 0 0 35px #eee;
+}
